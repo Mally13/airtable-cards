@@ -1,0 +1,137 @@
+/*Media Queries*/
+
+/* For extremely small screen devices (595px and below) */
+@media only screen and (max-width: 595px) {
+    header{
+        margin-bottom: 20px;
+    }
+    .nav {
+        width: 90%;
+        height: 100%;
+    }
+    .flexbox-container{
+        height: auto;
+        width: 90%;
+
+      }
+      .card {
+        width: 100%;
+        height: 450px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+      }
+      .card:nth-child(1),.card:nth-child(2),.card:nth-child(3){
+        border-radius: 10px;
+      }
+
+}
+
+/* Small screen devices (600px and above) */
+@media only screen and (min-width: 600px) {
+    header{
+        margin-bottom: 20px;
+    }
+    .nav {
+        width: 90%;
+        height: 100%;
+    }
+    .flexbox-container{
+        height: auto;
+        width: 90%;
+
+      }
+      .card {
+        width: 100%;
+        height: 450px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+      }
+      .card:nth-child(1),.card:nth-child(2),.card:nth-child(3){
+        border-radius: 10px;
+      }
+
+}
+
+/* Medium screen devices (768px and above) */
+@media only screen and (min-width: 768px) {
+    header{
+        margin-bottom: 20px;
+    }
+    .nav {
+        width: 90%;
+        height: 100%;
+    }
+    .flexbox-container{
+        height: auto;
+        width: 90%;
+
+      }
+      .card {
+        width: 25%;
+        height: 550px;
+      }
+      .card:nth-child(1){
+        border-radius: 10px 0 0 10px;
+      }
+      .card:nth-child(2){
+        border-radius: 0 0 0 0;
+      }
+      .card:nth-child(3){
+        border-radius: 0 10px 10px 0px;
+      }
+      .car-heading img {
+        margin: 40px auto 20px 30px;
+    }
+    .car-heading h1 {
+        margin: 20px auto 20px 30px;
+    }
+    .card .description p {
+        margin: 30px 60px 0 30px;
+    }
+    
+.card .action-button button {
+    width: 100% !important;
+    padding: 10px 30px 10px 30px;
+}
+
+    
+}
+
+
+/* Extra big screen devices (1200px and above) */
+@media only screen and (min-width: 1200px) {
+    header{    
+        width: 100%;
+        margin-bottom: 100px;
+    }
+
+    .nav {
+        width: 60%;
+        height: 100%;
+        margin: auto;
+    }
+    .flexbox-container{
+        height: 500px;
+        width: 60%;
+
+      }
+      .card {
+        width: 25%;
+        height: 500px;
+      }
+
+      .car-heading img {
+        margin: 40px auto 20px 40px;
+    }
+    .car-heading h1 {
+        margin: 20px auto 20px 40px;
+    }
+    .card .description p {
+        margin: 30px 60px 0 40px;
+    }
+    
+.card .action-button button {
+    width: 50% !important;
+    padding: 10px 30px 10px 40px;
+}
+}
